@@ -1,0 +1,48 @@
+<mjml>
+    <mj-head>
+        <mj-title>Actualización para el Expositor: Cevisama & Compradores Globales</mj-title>
+        <mj-attributes>
+            <mj-section padding="0px" padding-top="20px" background-color="#f2f2f2"/>
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#ffffff">
+        <!--Cabecera Cevisama-->
+        <mj-section>
+            <mj-column>
+                <mj-image padding="0px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera-CEVISAMA.jpg"/>
+            </mj-column>
+        </mj-section>
+
+
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text font-size="70px">Presentacion Inversión</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text align="right" font-size="78px">Generar interés</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text font-size="100px">Despertar deseo</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-top="30px">
+            <mj-column width="100%">
+                <mj-button font-size="40px" background-color="#d8d8d8" color="#000000">Opciones exopitores</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>
