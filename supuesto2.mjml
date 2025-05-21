@@ -34,7 +34,7 @@
 
         <mj-section padding-top="30px">
             <mj-column width="100%">
-                <mj-button font-size="40px" background-color="#d8d8d8" color="#000000">Opciones exopitores</mj-button>
+                <mj-button font-size="40px" background-color="#d8d8d8" color="#000000">Opciones expositores</mj-button>
             </mj-column>
         </mj-section>
 
