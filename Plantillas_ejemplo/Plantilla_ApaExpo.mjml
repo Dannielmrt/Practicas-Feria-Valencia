@@ -1,0 +1,97 @@
+<mjml>
+  <mj-head>
+  <mj-font name="'Krona One'" href="https://fonts.googleapis.com/css2?family=Krona+One:wght@400;700&display=swap"></mj-font>
+    <mj-font name="'DM Sans'" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap"></mj-font>
+    <mj-attributes>
+     
+    <mj-text font-family="'DM Sans', Helvetica, Arial, sans-serif" font-size="14px" line-height="20px" color="#333333">
+    </mj-attributes>
+     <mj-style>
+      b {color:#23539f;}
+      </mj-style> 
+  </mj-head>
+  <mj-body width="650px" background-color="#dfdfdf">
+    <mj-section padding-bottom="10px" padding-top="10px" padding-left="0px">
+      <mj-column width="65%" vertical-align="middle">
+        <mj-text align="left" color="#54595F" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px"> APAEXPO by RT | 14 - 16 May. 2025</mj-text>
+      </mj-column>
+      <mj-column width="35%" vertical-align="middle">
+     <mj-text align="right"><a style="color:#23539f; font-weight:300; font-style:normal; text-decoration:none" href="https://media.feriavalencia.com/mail/marketing/2025/apaexpo/08/">Ver en el navegador</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="top">
+        <mj-image href= "https://apaexpobyrt.feriavalencia.com/2025/03/31/los-casos-de-exito-en-la-industria-se-presentan-en-apaexpo-by-rt-2025-en-feria-valencia/" src="https://media.feriavalencia.com/mail/marketing/2025/apaexpo/img/Cabecera_mail_600x300px_APA_Expo_2025.jpg" alt="apaexpo by rt" align="center" border="none" width="650px" padding="0px"></mj-image>
+        
+      </mj-column>
+    </mj-section>
+     
+ <mj-section padding-bottom="0px" padding-top="30px" padding-left="20px" padding-right="20px" background-color="#ffffff">
+        
+       
+          <mj-column>
+           
+            
+           
+          
+         
+               <mj-text font-family="'Krona One', Helvetica, Arial, sans-serif" text-transform="uppercase" font-size="20px" line-height="30px" align="left" color="#23539f" padding-bottom="0px" padding-top="0px">
+        Los casos de éxito en la industria se presentan en APAexpo by RT 2025 en Feria Valencia
+ 
+              </mj-text>
+           
+             
+                 
+           
+    
+  </mj-column>         
+      </mj-section>
+    
+      
+           
+               <mj-section background-color="#ffffff" padding-top="0px" padding-bottom="10px" padding-left="20px" padding-right="20px">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text>Los casos de éxito en la industria y la aplicación de la experiencia de los mismos en el sector de puertas automáticas serán uno de los ejes fundamentales sobre los que pivotará el <b>IV ICAD (International Congress Automatic Doors)</b> que se celebrará en el marco de APAexpo by RT entre el 14 y el 16 de mayo en Feria Valencia. A las últimas novedades del sector que se presentarán en la feria se une un completo programa congresual con la celebración del IV ICAD. En el seno del congreso tendrán lugar presentaciones por especialistas sobre el estado actual del sector, tendencias tecnológicas y retos, con enfoques en la sostenibilidad, digitalización e innovación industrial.
+</mj-text>
+         <mj-image src="https://media.feriavalencia.com/mail/marketing/2025/apaexpo/img/MarcosSoria-7620.jpg
+" alt="apaexpo by rt" align="center" border="none" width="560px" padding="0px"></mj-image>
+        <mj-text><p>VISITAR <b><a href="https://apaexpobyrt.feriavalencia.com/2025/03/31/los-casos-de-exito-en-la-industria-se-presentan-en-apaexpo-by-rt-2025-en-feria-valencia/">APAEXPO BY R+T</a></b></p>APAExpo by R+T con su oferta expositora garantiza al visitante profesional un encuentro con las <b>innovaciones tecnológicas, soluciones arquitectónicas, productos y servicios</b> de las empresas del sector de las puertas automáticas.
+APAExpo by R+T es el <b>punto de encuentro y de negocio entre la oferta y la demanda del sector de las puertas automáticas.</b> Generando nuevos encuentros en los espacios de sus empresas expositoras y en sus eventos de networking.
+</mj-text>
+         <mj-text font-family="'Krona One', Helvetica, Arial, sans-serif" text-transform="uppercase" font-size="20px" line-height="30px" align="center" color="#23539f" padding-bottom="0px" padding-top="0px">
+        Consigue tu entrada
+ 
+              </mj-text>
+     
+        
+        </mj-column>
+          </mj-section> 
+            
+
+       <mj-section background-color="#ffffff" padding-top="0px" padding-bottom="30px" padding-left="20px" padding-right="20px">
+         <mj-column vertical-align="middle">
+         <mj-button background-color="#23539f" font-size="16px" width="220px" href="https://apps.feriavalencia.com/tickets/show/L7w2Gl1zXGdFjRNQEJdzw6Jfg5OE1vZ1k1CsVtXi6P1M3eSxNZ">ENTRADAS</mj-button>
+         </mj-column>
+    </mj-section>
+
+     
+       
+            
+    
+     
+      
+ //* Pie *// 
+  
+    <mj-section background-color="#54595F" padding-bottom="0px" padding-top="0px">
+      <mj-group><mj-column vertical-align="middle" width="50%">
+        <mj-image align="left" width="180px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" border="none" padding-left="20px" padding-right="0px" padding-bottom="0px" padding-top="0px"></mj-image>
+      </mj-column>
+      
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image width="60px" align="right" href="https://www.feriavalencia.com" src="https://www.feriavalencia.com/wp-content/uploads/2024/06/ApaExpo_logoBl.png" alt="Logo Feria Valencia" border="none" padding-left="0px" padding-right="20px" padding-bottom="0px" padding-top="0px"></mj-image>
+        
+      </mj-column></mj-group>
+    </mj-section>
+               <mj-section></mj-section>
+  </mj-body>
+</mjml>

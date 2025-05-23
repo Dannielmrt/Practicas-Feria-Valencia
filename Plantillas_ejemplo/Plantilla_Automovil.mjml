@@ -1,0 +1,194 @@
+<mjml>
+  <mj-head>
+     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />		
+    <mj-font name="'Josefin Sans'" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, helvetica, Arial, sans serif" font-size="16px" line-height="20px" font-weight="400" />		
+      
+    </mj-attributes>
+    <mj-style>
+    @media only screen and (max-width:600px) {
+      .listado {padding:0px; }
+      }
+    .listado li {padding-right:10px}
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px">
+    <mj-wrapper full-width="full-width" background-color="#ededed" padding="20px 0px">
+      <mj-section padding="0px">
+      	<mj-column width="80%">
+        <mj-text font-size="12px" padding="0px">FERIA DEL AUTOMÓVIL DE VALÈNCIA - Selección Ocasión | 11 - 13 Abril 2025</mj-text>
+        </mj-column>
+        <mj-column width="20%"><mj-text font-size="12px" align="right" padding="0px"><a style="color:#C41718" href="https://media.feriavalencia.com/mail/marketing/2025/automovil/02/">Ver en el navegador</a></mj-text></mj-column>
+      </mj-section>
+      
+      <mj-section padding="0px" background-color="#fff">
+      <mj-column><mj-image src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/cabecera_mail_vo.png" href="https://www.feriaautomovil.es" padding="0px"></mj-image></mj-column>
+      </mj-section>
+      <mj-section background-color="#C41718" padding="0px">
+      <mj-column padding="0px"><mj-text align="center" color="#ffffff" font-size="28px" font-weight="700" font-family="'Josefin Sans', sans-serif" line-height="32px" padding="20px 20px" text-transform="uppercase">
+       Descuentos únicos y entrega inmediata
+         </mj-text>
+       
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="0px">
+      <mj-column padding="0px">
+        <mj-text align="left" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+          <p>Más de <b>2000 coches de ocasión</b> y <b>30 marcas oficiales</b> te esperan la próxima semana <b>del 11 al 13 de abril en Feria Valencia<b>.</p></mj-text>
+
+          <mj-image align="left" href="https://www.feriaautomovil.es/ayudas-por-la-dana-coches-de-entrega-inmediata-con-financiacion-especial-y-desde-10-000-euros-en-feria-valencia/"  src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/19042024-_NGA4657-2048x1365B.jpg
+" width="800px" alt="logo feria valencia" align="left" border="none">
+          </mj-image>
+
+
+        <mj-text align="left" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+          <p> En la feria encontrarás <b>paquetes de ayudas especiales</b> a los <b>afectados por la DANA, financiación</b> exclusiva, vehículos de <b>entrega inmediata</b>, unidades desde <b>10.000 euros</b> y de todos los segmentos, <b>diésel, gasolina, híbrido</b> o <b>100% eléctrico.</b></p> 
+          <p><b><a href="https://www.feriaautomovil.es/ayudas-por-la-dana-coches-de-entrega-inmediata-con-financiacion-especial-y-desde-10-000-euros-en-feria-valencia/">¿Quieres saber más?</a></b></p>
+        </mj-text>
+        
+         <mj-text align="center" color="#222222" font-size="24px" font-weight="700" font-family="'Josefin Sans', sans-serif" line-height="28px" padding="20px" text-transform="uppercase">
+       MIRA TODAS LAS MARCAS QUE TE ESPERAN EN FERIA VALENCIA
+         </mj-text>
+           </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="30px" padding-right="30px" padding-bottom="0px" padding-top="0px">
+      <mj-column width="33%" padding="0px">
+        <mj-text font-size="14px" padding="0px">
+        
+         <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> ABARTH</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> ALFA ROMEO</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> BMW</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> CITROEN</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> DS AUTOMOBILES</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> EBRO</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> FIAT</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> FORD</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> HONDA</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> HYUNDAI</br>
+      
+        
+        </mj-text>
+            </mj-column>
+         <mj-column padding="0px">
+        <mj-text font-size="14px" padding="0px">
+        
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> JAECOO</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> JAGUAR</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> JEEP</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> KIA</br>
+         <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> LAND ROVER</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> LEAPMOTOR</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> LEXUS</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> MAZDA</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> MG</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> MINI</br>
+          
+         
+      
+        
+        </mj-text>
+            </mj-column>
+         <mj-column padding="0px">
+        <mj-text font-size="14px" padding="0px">
+        <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> MITSUBISHI MOTORS</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> NISSAN</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> OMODA</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> OPEL</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> PEUGEOT</br>
+         <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> SKODA</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> SUBARU</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> TESLA</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> TOYOTA</br>
+          <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> VOLKSWAGEN</br>
+         
+        
+        </mj-text>
+            </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="0px" padding-top="0px">
+      <mj-column padding="0px">
+        <mj-text align="left" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="20px">
+            Además, también tendrás a tu alcance toda la oferta de estos grandes distribuidores multimarca:
+          </mj-text>
+            </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="20px" padding-top="10px">
+      <mj-column padding="0px">
+        <mj-text align="left" font-size="14px" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+         
+            <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> MODRIVE</br>
+            <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> FLEXICAR</br>
+            
+         
+        
+</mj-text>
+      
+      
+       
+        </mj-column>
+        <mj-column padding="0px">
+        <mj-text align="left" font-size="14px" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+         
+           
+            <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> OCASIÓN PLUS</br>
+            <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> TURBO MANISES</br>
+           
+          
+        
+</mj-text>
+      
+      
+       
+        </mj-column>
+        <mj-column padding="0px">
+        <mj-text align="left" font-size="14px" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+         
+            <img src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/CARB.png" alt="Red Car"></img> LEADER CAR</br>
+          
+        
+</mj-text>
+      
+      
+       
+        </mj-column>
+      </mj-section>
+    	 
+       <mj-section background-color="#C41718" padding-top="10px" padding-left="0px" padding-right="0px" padding-bottom="10px">
+      <mj-column width="60%" padding="0px 20px" vertical-align="middle">
+       <mj-text align="center" color="#ffffff" font-size="22px" font-weight="700" font-family="'Josefin Sans', sans-serif" line-height="26px" padding="0px 10px 0px 0px" text-transform="uppercase">
+      Ahorra y compra ya tu entrada online
+         </mj-text>
+          <mj-divider width="100px" border-width="3px" border-color="#ffffff" padding="8px 0px 8px"></mj-divider>
+          <mj-text align="left" color="#ffffff" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px">
+          <p>Evita colas y ahorra sobre el precio de la entrada en taquilla. Compra ya tu entrada online y accede directamente a la exposición comercial</p>
+        
+</mj-text>
+       <mj-button href="https://apps.feriavalencia.com/tickets/show/xFHanKxlAksof71EAVqrGlJRMhEHxBbc5uzx9kNQ4DnwUn5xCH" align="center" width="250px" background-color="#ffffff" border="2px solid #C41718" color="#C41718" font-size="16px" inner-padding="10px" font-family="'Josefin Sans', sans-serif" line-height="18px" border-radius="1px" font-weight="600" padding="0px 10px 0px" text-transform="uppercase">CONSIGUE TU ENTRADA</mj-button>
+        </mj-column>
+        <mj-column width="40%" padding="0px 10px" vertical-align="middle">
+       <mj-image width="270px" align="center" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/image-7.png" href="https://www.feriaautomovil.es" padding="0px"></mj-image>
+      
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="#333333">
+      <mj-column>
+        <mj-text align="center" font-family="Unbounded, sans-serif" color="#ffffff" font-size="16px" padding-left="35px" padding-right="35px" padding-bottom="10px" padding-top="10px" font-weight="700" letter-spacing="1px" line-height="20px">
+          
+         Permanece atento a todas las novedades en nuestras Redes Sociales
+        </mj-text>
+       <mj-social padding-top="0px" align="center">
+          <mj-social-element background-color="#C41718" icon-size="35px" name="facebook-noshare" href="https://www.facebook.com/feriaautomovil/"></mj-social-element>
+          <mj-social-element  background-color="#C41718" icon-size="35px" name="twitter-noshare" href="https://twitter.com/feria_automovil"></mj-social-element>
+          <mj-social-element  background-color="#C41718" icon-size="35px" name="instagram" href="https://www.instagram.com/feriaautomovilvalencia/"></mj-social-element>
+          
+        </mj-social>
+         <mj-image align="center" href="https://www.feriavalencia.com/"  src="https://media.feriavalencia.com/mail/marketing/2022/automovil/img/Logo_FV_blanco.png" width="120px" alt="logo feria valencia" align="left" border="none" padding-bottom="0px" padding-top="0px">
+
+          </mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

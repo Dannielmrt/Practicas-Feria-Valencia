@@ -1,0 +1,171 @@
+<mjml>
+    <mj-head>
+        <mj-title>Actualización para el Expositor: Cevisama Compradores Internacionales</mj-title>
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Exile&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans+Hebrew:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"/>
+        <mj-attributes>
+            <mj-section padding="0px" background-color="transparent"/>
+            <mj-text line-height="20px" font-family="Montserrat" color="#262626"/>
+        </mj-attributes>
+        <mj-style>
+            .texto-footer {
+                font-weight:600; 
+                font-size:12px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#ffffff">
+
+        <!--Cabecera Cevisama-->
+        <mj-section>
+            <mj-column>
+                <mj-image padding="0px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera-CEVISAMA.jpg" href="https://cevisama.feriavalencia.com/"></mj-image>
+            </mj-column>
+        </mj-section>
+
+
+
+        <!--Cuerpo-->
+        <mj-wrapper padding="0px" background-repeat="no-repeat" background-url="./img/fondo1.png">
+            <!--Logo Feria Valencia-->
+            <mj-section>
+                <mj-group>
+                    <mj-column width="31.84%" padding-top="10px" padding-left="0.16%">
+                        <mj-image padding="0px" width="191px" src="./img/logo.png" />
+                    </mj-column>
+                    <mj-column width="68%" padding-top="10px"/>
+                </mj-group> 
+            </mj-section>
+
+            <!--Primer Párrafo-->
+            <mj-section>
+                <mj-column width="92%" padding-left="0.16%">
+                    <mj-text font-size="16px">Este año desde Feria Valencia nos hemos comprometido con nuestros expositores de Cevisama 2026, llevando a cabo una gran inversión para atraer compradores internacionales.</mj-text>
+                </mj-column>
+                <mj-column width="8%" padding-top="10px"/>
+            </mj-section>
+
+            <!--Segundo Párrafo-->
+            <mj-section>
+                <mj-column width="92%" padding-left="0.16%">
+                    <mj-text font-size="16px">Damos un paso al frente para posicionar esta feria como un referente internacional, que atraiga miradas y potenciales clientes desde el extranjero.</mj-text>
+                </mj-column>
+                <mj-column width="8%" padding-top="10px"/>
+            </mj-section>
+
+            <!--Enlace más información-->
+            <mj-section>
+                <mj-column padding-bottom="20px" width="92%" padding-left="0.16%">
+                    <mj-text font-size="12px" font-weight="550"><a href="https://cevisama.feriavalencia.com/noticias/#canal-expositor">Más información aquí</a></mj-text>
+                </mj-column>
+                <mj-column width="8%" padding-top="10px"/>
+            </mj-section>
+            
+        </mj-wrapper>
+
+
+
+        <!--Título promociones-->
+        <mj-section background-color="#508af5">
+            <mj-column>
+                <mj-text padding="0px" padding-top="18px" align="center" font-size="22px" font-weight="520">PROMOCIONES PARA EXPOSITORES</mj-text>
+                <mj-divider border-width="1px" width="120px"/>
+            </mj-column>
+        </mj-section>
+
+        <!--Contenido apartado promociones para expositores-->
+        <mj-section background-color="#508af5">
+
+            <!--Texto promociones-->
+            <mj-column width="50%">
+                <mj-text line-height="16px" padding-bottom="0px">▶  <strong>Mejora de visibilidad</strong> frente a potenciales clientes</mj-text>
+                <mj-text line-height="16px" padding-top="8px" padding-bottom="0px"><strong>· Soportes patrocinables</strong> para una mayor visibilidad de la marca</mj-text>
+                <mj-text line-height="16px" padding-top="8px" padding-bottom="0px"><strong>· Gabinete de prensa</strong> donde difundir novedades de producto a los medios de comunicación</mj-text>
+                <mj-text line-height="16px" padding-top="10px"padding-bottom="0px">▶  Oportunidades de <strong>Patrocinio Premium</strong> y <strong>Marketing Dirigido</strong> más allá de los soportes patrocinables básicos</mj-text>
+                <mj-text line-height="16px" padding-top="10px" padding-bottom="0px">▶  <strong>Programa de Compradores Invitados (HBP)</strong> mejorado, con el que asegurar citas directas con contactos de alto valor</mj-text>
+
+                <!--Llamada a la acción-->
+                <mj-button align="center" background-color="#eaf0fa" color="#427ff0" font-size="18px" width="240px" padding-top="20px" href="https://cevisama.feriavalencia.com/exponer/#patrocinar">Empieza ahora</mj-button>
+            </mj-column>
+
+            <!--Imagen promociones-->
+            <mj-column padding="0px" width="50%">
+                <mj-image align="right" src="./img/img-promociones.png" padding="0px" padding-top="8px"/>
+            </mj-column>
+
+        </mj-section>
+
+
+
+        <!--Título "¿AÚN NO FORMAS PARTE DE CEVISAMA 2026?"-->
+        <mj-section background-color="#fbfbfb">
+            <mj-column width="450px">
+                <mj-divider padding-top="20px" padding-bottom="12px" border-width="1px" width="210px"/>
+                <mj-text padding="0px" line-height="30px" font-size="24px" font-weight="530" align="center">¿AÚN NO FORMAS PARTE DE CEVISAMA 2026?</mj-text>
+                <mj-divider padding-top="12px" padding-bottom="20px" border-width="1px" width="210px"/>
+            </mj-column>
+        </mj-section>
+
+        <!--Sección contenido - atraer expositores-->
+        <mj-section background-color="#e5e5e5">
+
+            <!--imagen-->
+            <mj-column width="50%">
+                <mj-image padding="18px" align="right" src="./img/img-expositores.png"/>
+            </mj-column>
+
+            <!--Contenido-->
+            <mj-column width="50%">
+
+                <mj-text line-height="16px" padding-left="20px" padding-right="30px" padding-bottom="0px" font-weight="520" align="justify">Conviertete en expositor de la feria que este mismo año ha congregado a más de 59.000 visitantes, y de la que formaron parte 400 expositores más como tú.</mj-text>
+                <mj-text line-height="16px" padding-left="20px" padding-bottom="0px"font-weight="520" align="justify">¿Vas a dejar pasar esta oportunidad?</mj-text>
+                <mj-text line-height="16px" padding-left="20px" font-weight="520" align="justify">Conviertete en expositor desde ya y preparate para recibir compradores desde cerca de 150 países diferentes.</mj-text>
+
+                <!--Llamada a la acción-->
+                <mj-button padding-top="37px" href="https://cevisama.feriavalencia.com/exponer/#quieres-ser-expositor" background-color="#5289ef" color="#171717" font-size="13px" font-weight="500">PONTE EN CONTACTO CON NOSOTROS YA MISMO</mj-button>
+                
+            </mj-column>
+
+        </mj-section>
+
+
+
+        <!--Sección vacía con color-->
+        <mj-section background-color="#fbfbfb"> 
+            <mj-column padding="24px"/>
+        </mj-section>
+
+
+
+        <!--Footer-->
+        <mj-wrapper padding="0px" background-color="#4b9b7b">
+
+            <!--Texto Redes sociales-->
+            <mj-section >
+                <mj-column>
+                    <mj-text padding-left="10px" padding-bottom="2px" css-class="texto-footer" color="#2D2D2D">Encuentranos en nuestras redes:</mj-text>
+                </mj-column>
+            </mj-section>
+
+            <!--Redes sociales-->
+            <mj-section>
+                <mj-column>
+                    <mj-social align="left" padding-left="8px" padding-top="0px" padding-bottom="0px" icon-size="20px" mode="horizontal">
+                        <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/" icon-size="21px" icon-height="22px" background-color="#2e6750"> </mj-social-element>
+          <mj-social-element name="twitter-noshare" href="https://twitter.com/feria_valencia" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" icon-size="21px" icon-height="22px" background-color="#2e6750"> </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/" icon-size="21px" icon-height="22px" background-color="#2e6750"> </mj-social-element>
+          <mj-social-element name="youtube" href="https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC2c4KYjrdeyt-W2ZH86Bsgw%3Fcbrd%3D1&gl=ES&m=0&pc=yt&hl=es&src=1" icon-size="21px" icon-height="22px" background-color="#2e6750" > </mj-social-element>
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F318933%2Fadmin%2F" icon-size="21px" icon-height="22px" background-color="#2e6750"> </mj-social-element>
+          <mj-social-element name="flickr" href="https://www.flickr.com/photos/feria-valencia/albums" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/flickr-white-icon.png" icon-size="21px" icon-height="22px" background-color="#2e6750"> </mj-social-element>
+                    </mj-social>
+                </mj-column>
+            </mj-section>
+
+            <!--Enlace contacto-->
+            <mj-section>
+                <mj-column>
+                    <mj-text align="right" padding-top="0px" padding-right="10px" css-class="texto-footer"><a href="https://www.feriavalencia.com/contacto/">Contactanos</a></mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
