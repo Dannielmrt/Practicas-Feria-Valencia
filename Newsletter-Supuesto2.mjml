@@ -7,6 +7,16 @@
             <mj-text line-height="20px" font-family="Montserrat" color="#262626"/>
         </mj-attributes>
         <mj-style>
+            @media only screen and (max-width:450px) {
+                .columna-logo {width: 40.84%;}
+
+                .texto-cevisama2025 { padding-left: 30px;}
+
+                .button-contacta-con-nosotros { 
+                    width: 280px;
+                    padding-top: 20px;
+                }
+            }
             .texto-footer {
                 font-weight:600; 
                 font-size:12px;
@@ -16,6 +26,7 @@
     <mj-body background-color="#ffffff">
 
     <!--Cabecera-->
+
         <!--Cabecera Cevisama-->
         <mj-section>
             <mj-column>
@@ -27,11 +38,12 @@
 
     <!--Cuerpo-->
         <mj-wrapper padding="0px" background-repeat="no-repeat" background-url="https://github.com/Dannielmrt/Practicas-Feria-Valencia/blob/main/img/fondo1.png?raw=true">
+            
             <!--Logo Feria Valencia-->
             <mj-section>
                 <mj-group>
-                    <mj-column width="31.84%" padding-top="10px" padding-left="0.16%">
-                        <mj-image padding="0px" width="191px" src="https://github.com/Dannielmrt/Practicas-Feria-Valencia/blob/main/img/logo.png?raw=true" />
+                    <mj-column css-class="columna-logo" width="31.84%" padding-top="10px" padding-left="0.16%">
+                        <mj-image  padding="0px" width="191px" src="https://github.com/Dannielmrt/Practicas-Feria-Valencia/blob/main/img/logo.png?raw=true" />
                     </mj-column>
                     <mj-column width="68%" padding-top="10px"/>
                 </mj-group> 
@@ -131,12 +143,12 @@
             <!--Contenido-->
             <mj-column width="50%">
 
-                <mj-text line-height="16px" padding-left="20px" padding-right="30px" padding-bottom="0px" padding-top="15px" font-weight="520" align="justify">Conviertete en expositor de la feria que este mismo año ha congregado a cerca de 60.000 visitantes, y de la que formaron parte 400 expositores más como tú.</mj-text>
-                <mj-text line-height="16px" padding-left="20px" padding-bottom="0px"font-weight="520" align="justify">¿Vas a dejar pasar esta oportunidad?</mj-text>
-                <mj-text line-height="16px" padding-left="20px" font-weight="520" align="justify">Conviertete en expositor desde ya y preparate para recibir compradores desde 150 países diferentes.</mj-text>
+                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" padding-right="30px" padding-bottom="0px" padding-top="15px" font-weight="520" align="justify">Conviertete en expositor de la feria que este mismo año ha congregado a cerca de 60.000 visitantes, y de la que formaron parte 400 expositores más como tú.</mj-text>
+                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" padding-bottom="0px"font-weight="520" align="justify">¿Vas a dejar pasar esta oportunidad?</mj-text>
+                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" font-weight="520" align="justify">Conviertete en expositor desde ya y preparate para recibir compradores desde 150 países diferentes.</mj-text>
 
                 <!--Llamada a la acción-->
-                <mj-button padding-top="40px" padding-bottom="20px" vertical-align="bottom" href="https://cevisama.feriavalencia.com/exponer/#quieres-ser-expositor" background-color="#5289ef" color="#171717" font-size="13px" font-weight="500" width="255px" inner-padding="14px">CONTACTA CON NOSOTROS</mj-button>
+                <mj-button css-class="button-contacta-con-nosotros" padding-top="40px" padding-bottom="20px" vertical-align="bottom" href="https://cevisama.feriavalencia.com/exponer/#quieres-ser-expositor" background-color="#5289ef" color="#171717" font-size="13px" font-weight="500" width="255px" inner-padding="14px">CONTACTA CON NOSOTROS</mj-button>
                 
             </mj-column>
 
@@ -165,11 +177,11 @@
                 <mj-column>
                     <mj-social align="left" padding-left="8px" padding-top="0px" padding-bottom="0px" icon-size="20px" mode="horizontal">
                         <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
-          <mj-social-element name="twitter-noshare" href="https://twitter.com/feria_valencia" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
-          <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
-          <mj-social-element name="youtube" href="https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC2c4KYjrdeyt-W2ZH86Bsgw%3Fcbrd%3D1&gl=ES&m=0&pc=yt&hl=es&src=1" icon-size="21px" icon-height="22px" background-color="#287e5b" > </mj-social-element>
-          <mj-social-element name="linkedin" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F318933%2Fadmin%2F" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
-          <mj-social-element name="flickr" href="https://www.flickr.com/photos/feria-valencia/albums" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/flickr-white-icon.png" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
+                        <mj-social-element name="twitter-noshare" href="https://twitter.com/feria_valencia" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
+                        <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
+                        <mj-social-element name="youtube" href="https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC2c4KYjrdeyt-W2ZH86Bsgw%3Fcbrd%3D1&gl=ES&m=0&pc=yt&hl=es&src=1" icon-size="21px" icon-height="22px" background-color="#287e5b" > </mj-social-element>
+                        <mj-social-element name="linkedin" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F318933%2Fadmin%2F" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
+                        <mj-social-element name="flickr" href="https://www.flickr.com/photos/feria-valencia/albums" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/flickr-white-icon.png" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
                     </mj-social>
                 </mj-column>
             </mj-section>
