@@ -51,18 +51,18 @@
 
             <!--Primer Párrafo-->
             <mj-section>
-                <mj-column width="92%" padding-left="0.16%">
-                    <mj-text font-size="16px">Este año desde Feria Valencia nos hemos comprometido con nuestros expositores de Cevisama 2026, llevando a cabo una gran inversión para atraer compradores internacionales.</mj-text>
+                <mj-column width="93%" padding-left="0.16%">
+                    <mj-text align="justify" font-size="16px">Desde Feria Valencia hemos aumentado el compromiso con nuestros expositores de Cevisama 2026, llevando a cabo una gran inversión para atraer compradores internacionales.</mj-text>
                 </mj-column>
-                <mj-column width="8%" padding-top="10px"/>
+                <mj-column width="5%" padding-top="10px"/>
             </mj-section>
 
             <!--Segundo Párrafo-->
             <mj-section>
-                <mj-column width="92%" padding-left="0.16%">
-                    <mj-text font-size="16px">Damos un paso al frente para posicionar esta feria como un referente internacional, que atraiga miradas y potenciales clientes desde el extranjero.</mj-text>
+                <mj-column width="93%" padding-left="0.16%">
+                    <mj-text align="justify" font-size="16px">Damos un paso firme hacia una mayor proyección internacional. De lo que se espera un notable aumento en la presencia de visitantes internacionales con alto potencial de negocio.</mj-text>
                 </mj-column>
-                <mj-column width="8%" padding-top="10px"/>
+                <mj-column width="5%" padding-top="10px"/>
             </mj-section>
 
             <!--Enlace 'más información'-->
@@ -75,20 +75,12 @@
 
             <!--Tercer Párrafo-->
             <mj-section>
-                <mj-column width="92%" padding-left="0.16%">
-                    <mj-text font-size="16px">Se abren ante nosotros nuevos horizontes, con grandes expectativas respecto a la cantidad de visitantantes y clientes de alto valor que se van a recibir desde el mercado internacional.</mj-text>
+                <mj-column padding-bottom="30px"  width="93%" padding-left="0.16%">
+                    <mj-text align="justify" font-size="16px">La dimensión internaconal que adquiere esta edición sitúa a Cevisama como una plataforma inmejorable para ampliar el alcance de vuestra marca y generar impacto real. </mj-text>
                 </mj-column>
-                <mj-column width="8%" padding-top="0px"/>
+                <mj-column width="5%" padding-top="0px"/>
             </mj-section>
 
-            <!--Cuarto Párrafo-->
-            <mj-section>
-                <mj-column padding-bottom="30px" width="92%" padding-left="0.16%">
-                    <mj-text font-size="16px">Sabemos lo que esto representa para nuestros expositores, y por nuestra parte ponemos a dispodisicion servicios que permitan a las propias marcas y empresas aprovechar las oportunidades que ahora se les presentan.</mj-text>
-                </mj-column>
-                <mj-column width="8%" padding-top="0px"/>
-            </mj-section>
-            
         </mj-wrapper>
 
 
