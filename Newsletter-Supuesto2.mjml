@@ -129,7 +129,7 @@
         </mj-section>
 
         <!--Sección contenido - antiguos expositores-->
-        <mj-section background-color="#e1e1e1">
+        <mj-section background-color="#e5e5e5">
 
             <!--imagen-->
             <mj-column css-class="column-img-expositores" width="50%">
