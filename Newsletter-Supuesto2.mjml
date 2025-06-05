@@ -41,7 +41,7 @@
 
 
     <!--Cuerpo-->
-        <mj-wrapper padding="0px" background-repeat="no-repeat" background-url="./img/fondo2.png">
+        <mj-wrapper padding="0px" background-repeat="no-repeat" background-url="https://github.com/Dannielmrt/Practicas-Feria-Valencia/blob/main/img/fondo2.png?raw=true">
             
             <!--Logo Feria Valencia-->
             <mj-section>
@@ -100,7 +100,7 @@
         <mj-section background-color="#508af5">
 
             <!--Texto promociones-->
-            <mj-column width="50%">
+            <mj-column width="51%">
                 <mj-text line-height="16px" padding-bottom="0px" font-weight="500" font-size="14px"><strong>- Mejora de visibilidad</strong> frente a potenciales clientes</mj-text>
                 <mj-text line-height="16px" padding-top="8px" padding-bottom="0px" font-weight="500" font-size="14px"><strong>- Soportes patrocinables</strong> para una mayor visibilidad de la marca</mj-text>
                 <mj-text line-height="16px" padding-top="8px" padding-bottom="0px" font-weight="500" font-size="14px"><strong>- Gabinete de prensa</strong> donde difundir novedades de producto a los medios de comunicación</mj-text>
@@ -112,7 +112,7 @@
             </mj-column>
 
             <!--Imagen promociones-->
-            <mj-column padding="0px" width="50%">
+            <mj-column padding="0px" width="49%">
                 <mj-image align="right" src="https://i.ibb.co/RTQMc8vY/img-promociones.png" padding="0px" padding-top="8px"/>
             </mj-column>
 
@@ -159,17 +159,16 @@
 
 
     <!--Footer-->
-        <mj-wrapper padding="0px" background-color="#3a9973">
 
             <!--Texto Redes sociales-->
-            <mj-section >
+            <mj-section background-color="#3a9973">
                 <mj-column>
                     <mj-text padding-left="10px" padding-bottom="2px" css-class="texto-footer" color="#2D2D2D">Encuentranos en nuestras redes:</mj-text>
                 </mj-column>
             </mj-section>
 
             <!--Redes sociales-->
-            <mj-section>
+            <mj-section background-color="#3a9973">
                 <mj-column>
                     <mj-social align="left" padding-left="8px" padding-top="0px" padding-bottom="0px" icon-size="20px" mode="horizontal">
                         <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/" icon-size="21px" icon-height="22px" background-color="#287e5b"> </mj-social-element>
@@ -183,11 +182,11 @@
             </mj-section>
 
             <!--Enlace contacto-->
-            <mj-section>
+            <mj-section background-color="#3a9973">
                 <mj-column>
                     <mj-text align="right" padding-top="0px" padding-right="10px" padding-bottom="5px" css-class="texto-footer"><a href="https://www.feriavalencia.com/contacto/">Contactanos</a></mj-text>
                 </mj-column>
             </mj-section>
-        </mj-wrapper>
+
     </mj-body>
 </mjml>
