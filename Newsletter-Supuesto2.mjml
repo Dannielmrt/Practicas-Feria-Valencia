@@ -8,13 +8,17 @@
         </mj-attributes>
         <mj-style>
             @media only screen and (max-width:450px) {
-                .columna-logo {width: 40.84%;}
+                .columna-logo {width: 40.84% !important;}
 
-                .texto-cevisama2025 { padding-left: 30px;}
+                .texto-cevisama2025 { 
+                    padding-top:5px !important;
+                    padding-left: 45px !important;
+                    padding-right: 45px !important;
+                }
 
                 .button-contacta-con-nosotros { 
-                    width: 280px;
-                    padding-top: 20px;
+                    width: 380px !important;
+                    padding-top: 12px !important;
                 }
             }
             .texto-footer {
@@ -23,7 +27,7 @@
             }
         </mj-style>
     </mj-head>
-    <mj-body background-color="#ffffff">
+    <mj-body background-color="#fefefe">
 
     <!--Cabecera-->
 
@@ -37,7 +41,7 @@
 
 
     <!--Cuerpo-->
-        <mj-wrapper padding="0px" background-repeat="no-repeat" background-url="https://i.ibb.co/1YmRXc3f/fondo1.png">
+        <mj-wrapper padding="0px" background-repeat="no-repeat" background-url="./img/fondo2.png">
             
             <!--Logo Feria Valencia-->
             <mj-section>
@@ -76,7 +80,7 @@
             <!--Tercer Párrafo-->
             <mj-section>
                 <mj-column padding-bottom="30px"  width="93%" padding-left="0.16%">
-                    <mj-text align="justify" font-size="16px">La dimensión internaconal que adquiere esta edición sitúa a Cevisama como una plataforma inmejorable para ampliar el alcance de vuestra marca y generar impacto real. </mj-text>
+                    <mj-text align="justify" font-size="16px">La dimensión internaconal que adquiere esta edición sitúa a Cevisama como una plataforma inmejorable para ampliar el alcance de vuestra marca y generar un impacto real. </mj-text>
                 </mj-column>
                 <mj-column width="5%" padding-top="0px"/>
             </mj-section>
@@ -97,14 +101,14 @@
 
             <!--Texto promociones-->
             <mj-column width="50%">
-                <mj-text line-height="16px" padding-bottom="0px" font-weight="500">-  <strong>Mejora de visibilidad</strong> frente a potenciales clientes</mj-text>
-                <mj-text line-height="16px" padding-top="8px" padding-bottom="0px" font-weight="500"><strong>· Soportes patrocinables</strong> para una mayor visibilidad de la marca</mj-text>
-                <mj-text line-height="16px" padding-top="8px" padding-bottom="0px" font-weight="500"><strong>· Gabinete de prensa</strong> donde difundir novedades de producto a los medios de comunicación</mj-text>
-                <mj-text line-height="16px" padding-top="10px"padding-bottom="0px" font-weight="500">-  Oportunidades de <strong>Patrocinio Premium</strong> y <strong>Marketing Dirigido</strong> más allá de los soportes patrocinables básicos</mj-text>
-                <mj-text line-height="16px" padding-top="10px" padding-bottom="0px" font-weight="500">-  <strong>Programa de Compradores Invitados (HBP)</strong>, con el que asegurar citas directas con contactos de alto valor</mj-text>
+                <mj-text line-height="16px" padding-bottom="0px" font-weight="500" font-size="14px"><strong>- Mejora de visibilidad</strong> frente a potenciales clientes</mj-text>
+                <mj-text line-height="16px" padding-top="8px" padding-bottom="0px" font-weight="500" font-size="14px"><strong>- Soportes patrocinables</strong> para una mayor visibilidad de la marca</mj-text>
+                <mj-text line-height="16px" padding-top="8px" padding-bottom="0px" font-weight="500" font-size="14px"><strong>- Gabinete de prensa</strong> donde difundir novedades de producto a los medios de comunicación</mj-text>
+                <mj-text line-height="16px" padding-top="10px"padding-bottom="0px" font-weight="500" font-size="14px"><strong>-</strong>  Oportunidades de <strong>Patrocinio Premium</strong> y <strong>Marketing Dirigido</strong> más allá de los soportes patrocinables básicos</mj-text>
+                <mj-text line-height="16px" padding-top="10px" padding-bottom="0px" font-weight="500" font-size="14px"><strong>- Programa de Compradores Invitados (HBP)</strong>, con el que asegurar citas directas con contactos de alto valor</mj-text>
 
                 <!--Llamada a la acción-->
-                <mj-button align="center" background-color="#eaf0fa" color="#427ff0" font-size="18px" width="240px" padding-top="45px" href="https://cevisama.feriavalencia.com/exponer/#patrocinar">Empieza ahora</mj-button>
+                <mj-button align="center" background-color="#eaf0fa" color="#427ff0" font-size="18px" width="240px" padding-top="16px" href="https://cevisama.feriavalencia.com/exponer/#patrocinar">Empieza ahora</mj-button>
             </mj-column>
 
             <!--Imagen promociones-->
@@ -115,8 +119,8 @@
         </mj-section>
 
 
-        <!--Título sección dirigida a antiguos expositores-->
-        <mj-section background-color="#fbfbfb" padding-bottom="15px">
+        <!--Título segunda sección de contendio-->
+        <mj-section background-color="#f7f7f7" padding-bottom="15px">
             <mj-column width="450px">
                 <mj-divider padding-top="20px" padding-bottom="12px" border-width="1px" width="210px"/>
                 <mj-text padding="0px" line-height="30px" font-size="22px" font-weight="530" align="center">¿AÚN NO FORMAS PARTE DE CEVISAMA 2026?</mj-text>
@@ -125,19 +129,19 @@
         </mj-section>
 
         <!--Sección contenido - antiguos expositores-->
-        <mj-section background-color="#e5e5e5">
+        <mj-section background-color="#e1e1e1">
 
             <!--imagen-->
-            <mj-column width="50%">
-                <mj-image padding="18px" align="center" src="https://i.ibb.co/MDZLcXPV/img-expositores.png"/>
+            <mj-column css-class="column-img-expositores" width="50%">
+                <mj-image css-class="img-expositores" padding="18px" align="center" src="https://i.ibb.co/MDZLcXPV/img-expositores.png"/>
             </mj-column>
 
             <!--Contenido-->
             <mj-column width="50%">
 
-                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" padding-right="30px" padding-bottom="0px" padding-top="15px" font-weight="500" align="justify">Conviertete en expositor de la feria que este mismo año ha congregado a cerca de 60.000 visitantes, y de la que formaron parte 400 expositores más como tú.</mj-text>
-                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" padding-bottom="0px"font-weight="500" align="justify">¿Vas a dejar pasar esta oportunidad?</mj-text>
-                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" font-weight="500" align="justify">Conviertete en expositor desde ya y preparate para recibir compradores desde 150 países diferentes.</mj-text>
+                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" padding-right="30px" padding-bottom="0px" padding-top="15px" font-weight="500" align="justify" font-size="14px">Conviertete en expositor de la feria que este mismo año ha congregado a cerca de 60.000 visitantes, y de la que formaron parte 400 expositores más como tú.</mj-text>
+                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" padding-bottom="0px"font-weight="500" align="justify" font-size="14px">¿Vas a dejar pasar esta oportunidad?</mj-text>
+                <mj-text css-class="texto-cevisama2025" line-height="16px" padding-left="20px" font-weight="500" align="justify" font-size="14px">Conviertete en expositor desde ya y preparate para recibir compradores desde 150 países diferentes.</mj-text>
 
                 <!--Llamada a la acción-->
                 <mj-button css-class="button-contacta-con-nosotros" padding-top="40px" padding-bottom="20px" vertical-align="bottom" href="https://cevisama.feriavalencia.com/exponer/#quieres-ser-expositor" background-color="#5289ef" color="#171717" font-size="15px" font-weight="500" width="255px" inner-padding="14px">CONTACTA CON NOSOTROS</mj-button>
@@ -148,7 +152,7 @@
 
 
         <!--Sección vacía con color-->
-        <mj-section background-color="#fbfbfb"> 
+        <mj-section background-color="#f7f7f7"> 
             <mj-column padding="24px"/>
         </mj-section>
 
