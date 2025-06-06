@@ -1,0 +1,174 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Modelo ER Suscriptores (Conceptual)" id="ER_Suscriptores_Concept_1">
+    <mxGraphModel dx="1440" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="SuscriptorEntity" value="Suscriptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="NewsletterEntity" value="Newsletter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HistorialEnvioEntity" value="Historial_Envio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="CampanaEntity" value="Campaña" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="SuscriptorIdAttr" value="id_suscriptor (PK)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="SuscriptorNombreAttr" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="SuscriptorEmailAttr" value="email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="NewsletterIdAttr" value="id_newsletter (PK)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NewsletterTituloAttr" value="titulo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="210" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NewsletterContenidoAttr" value="contenido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NewsletterFechaCreacionAttr" value="fecha_creacion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="EnvioIdAttr" value="id_envio (PK)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnvioFechaAttr" value="fecha_envio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnvioEstadoAttr" value="estado_envio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="EnvioAsuntoAttr" value="asunto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="CampanaIdAttr" value="id_campaña (PK)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="190" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CampanaNombreAttr" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CampanaDescripcionAttr" value="descripcion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="190" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CampanaFechaInicioAttr" value="fecha_inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CampanaFechaFinAttr" value="fecha_fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="260" width="90" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="EnviaRel" value="Envía" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="225" width="80" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="RecibeRel" value="Recibe" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="225" width="80" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="AsignaRel" value="Asigna" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="225" width="80" height="50" as="geometry"/>
+        </mxCell>
+
+
+        <mxCell id="e_a_suscriptor_id" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="SuscriptorEntity" target="SuscriptorIdAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_suscriptor_nombre" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="SuscriptorEntity" target="SuscriptorNombreAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_suscriptor_email" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="SuscriptorEntity" target="SuscriptorEmailAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="e_a_newsletter_id" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="NewsletterEntity" target="NewsletterIdAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_newsletter_titulo" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="NewsletterEntity" target="NewsletterTituloAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_newsletter_contenido" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="NewsletterEntity" target="NewsletterContenidoAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_newsletter_fecha" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="NewsletterEntity" target="NewsletterFechaCreacionAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_a_historial_id" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="HistorialEnvioEntity" target="EnvioIdAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_historial_fecha" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="HistorialEnvioEntity" target="EnvioFechaAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_historial_estado" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="HistorialEnvioEntity" target="EnvioEstadoAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_historial_asunto" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="HistorialEnvioEntity" target="EnvioAsuntoAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e_a_campana_id" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="CampanaEntity" target="CampanaIdAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_campana_nombre" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="CampanaEntity" target="CampanaNombreAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_campana_descripcion" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="CampanaEntity" target="CampanaDescripcionAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_campana_fecha_inicio" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="CampanaEntity" target="CampanaFechaInicioAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_a_campana_fecha_fin" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="CampanaEntity" target="CampanaFechaFinAttr">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="rel_suscriptor_envia" value="1" style="endArrow=none;html=1;" edge="1" parent="1" source="SuscriptorEntity" target="EnviaRel">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="230" as="sourcePoint"/>
+            <mxPoint x="280" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_envia_historial" value="N" style="endArrow=none;html=1;" edge="1" parent="1" source="EnviaRel" target="HistorialEnvioEntity">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint"/>
+            <mxPoint x="440" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="rel_newsletter_recibe" value="1" style="endArrow=none;html=1;" edge="1" parent="1" source="NewsletterEntity" target="RecibeRel">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="230" as="sourcePoint"/>
+            <mxPoint x="580" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_recibe_historial" value="N" style="endArrow=none;html=1;" edge="1" parent="1" source="RecibeRel" target="HistorialEnvioEntity">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="230" as="sourcePoint"/>
+            <mxPoint x="740" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="rel_newsletter_asigna" value="N" style="endArrow=none;html=1;" edge="1" parent="1" source="NewsletterEntity" target="AsignaRel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_asigna_campana" value="M" style="endArrow=none;html=1;" edge="1" parent="1" source="AsignaRel" target="CampanaEntity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
