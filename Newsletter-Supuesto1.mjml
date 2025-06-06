@@ -4,15 +4,34 @@
         <mj-font name="Belanosima" href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap"/>
         <mj-attributes>
             <mj-section padding="0px" background-color="transparent"/>
-            <mj-text/>
+            <mj-text line-height="18px" />
         </mj-attributes>
         <mj-style>
             @media only screen and (max-width:450px) {
-                
+                .imagen-emil-ferris {
+                    padding-left:20px !important;
+                    padding-top:20px !important;
+                    padding-right:15px !important;
+                    padding-bottom: 0px !important;
+                }
+
+                .texto-emil-ferris {
+                    padding-top: 0px !important;
+                    padding-bottom: 15px !important;
+                }
+
+                .columna-vacia-blanco {
+                    padding-bottom: 0px !important;
+                }
             }
             .texto-footer {
-                font-weight:450; 
+                font-weight:400; 
                 font-size:12px;
+            }
+
+            .seccion-vacia-blanco {
+                background-color: #fbffff !important;
+                padding-bottom: 25px;
             }
         </mj-style>
     </mj-head>
@@ -39,7 +58,7 @@
         <!--Texto previo autores-->
         <mj-section>
             <mj-group>
-                <mj-column width="3%" padding-top="60px" background-color="#ffffff"/>
+                <mj-column width="3%" padding-top="65px" background-color="#ffffff"/>
                 <mj-column width="97%" background-color="#f5f5f5">
                     <mj-text padding-top="14px" padding-bottom="14px" padding-left="15px" font-size="15px" font-weight="550">Asistencia confirmada de más de 70 autores reconocidos. ¡Entre ellos nombres destacados como Emili Ferris, Zainab Fasiki o Eusebio Nsue Nsue!</mj-text>
                 </mj-column>
@@ -48,44 +67,154 @@
 
         <!--Sección Emil Ferris-->
         <mj-section background-url="./img/fondo-seccion-emil-ferris.jpg">
-            <mj-column width="32%">
-                <mj-image padding-left="20px" padding-top="15px" padding-right="0px" src="./img/dibujo-emil-ferris.jpg"/>
+            
+            <!--imagen dibujo Emil Ferris-->
+            <mj-column width="32%" >
+                <mj-image css-class="imagen-emil-ferris" align="left" padding-left="20px" padding-top="15px" padding-right="0px" src="./img/dibujo-emil-ferris.jpg"/>
             </mj-column>
-            <mj-column width="36%">
-                <mj-text padding-top="18px" padding-bottom="0px" padding-left="18px" align="left" font-size="16px" font-weight="450">Emil Ferris</mj-text>
-                <mj-text padding-top="5px" padding-left="18px" line-height="18px" align="left" font-size="14px">Dibujante estadounidense y autora de grandes obras como “Lo que más me gustan son los montruos”.</mj-text>
-                <mj-text padding-top="0px" padding-left="18px" line-height="18px" align="left" font-size="14px">La aclamada autora Emil Ferris estará presente en el Salón del Cómic de  València 2025 con la esperada continuación de su obra maestra.</mj-text>
-            </mj-column>
-            <mj-column width="32%">
-                <mj-image padding-right="20px" padding-top="20px" padding-left="0px" src="./img/retrato-emil-ferris.jpg"/>
+
+            <!--Texto Emil Ferris-->
+            <mj-column css-class="texto-emil-ferris" width="68%">
+                <mj-text padding-top="18px" padding-bottom="0px" padding-left="22px" line-height="12px" align="left" font-size="16px" font-weight="450">Emil Ferris</mj-text>
+                <mj-text padding-top="5px" padding-left="22px" align="left" font-size="14px">Dibujante estadounidense y autora de grandes obras como “Lo que más me gustan son los montruos”.</mj-text>
+                <mj-text padding-top="0px" padding-left="22px" align="left" font-size="14px">La aclamada autora Emil Ferris estará presente en el Salón del Cómic de  València 2025 con la esperada continuación de su obra maestra.</mj-text>
             </mj-column>
         </mj-section>
 
         <!--Sección Eusenbio Nsue Nsue-->
-        <mj-section background-color="#feba2b">
-            <mj-column width="32%">
-                <mj-image padding-left="20px" padding-top="15px" padding-right="0px" src="./img/dibujo-emil-ferris.jpg"/>
+        <mj-section background-color="#febf3c">
+
+            <!--Imagen fotografía Eusebio-->
+            <mj-column width="32%" background-color="#fac554">
+                <mj-image  align="left" padding-left="20px" padding-top="15px" padding-right="0px" src="./img/eusebio-foto.jpg"/>
             </mj-column>
-            <mj-column width="36%">
-                <mj-text padding-top="18px" padding-bottom="0px" padding-left="18px" align="left" font-size="16px" font-weight="450">Eusenbio Nsue Nsue</mj-text>
-                <mj-text padding-top="5px" padding-left="18px" line-height="18px" align="left" font-size="14px">Dibujante estadounidense y autora de grandes obras como “Lo que más me gustan son los montruos”.</mj-text>
-                <mj-text padding-top="0px" padding-left="18px" line-height="18px" align="left" font-size="14px">La aclamada autora Emil Ferris estará presente en el Salón del Cómic de  València 2025 con la esperada continuación de su obra maestra.</mj-text>
+
+            <!--Texto Eusebio-->
+            <mj-column width="68%">
+                <mj-text padding-top="18px" padding-bottom="0px" padding-left="18px" line-height="12px" align="left" font-size="16px" font-weight="450">Eusenbio Nsue Nsue</mj-text>
+                <mj-text padding-top="5px" padding-left="18px" align="left" font-size="14px">Autor autodidacta ecuatoguineano con obras que reflejan la riqueza cultural de su país de origen. </mj-text>
+                <mj-text padding-top="0px" padding-left="18px" align="left" font-size="14px">En el Salón del Cómic de València 2025, Eusebio Nsue Nsue presentará su  trabajo como parte del libro colectivo Los Nadie</mj-text>
             </mj-column>
-            <mj-column width="32%">
-                <mj-image padding-right="20px" padding-top="20px" padding-left="0px" src="./img/retrato-emil-ferris.jpg"/>
-            </mj-column>
+
         </mj-section>
 
-        <mj-section>
+        <!--Sección vacia color verde-->
+        <mj-section background-color="#2f894c" padding-top="35px">
             <mj-column>
             </mj-column>
         </mj-section>
+
+
+        <!--Título Tour Joc & Rol-->
+        <mj-section background-color="#fbffff">
+            <mj-column>
+                <mj-text padding-top="17px" padding-bottom="6px" align="center" font-family="Belanosima" font-size="27px">Tour Joc & Rol en JESTA 2025</mj-text>
+                <mj-divider padding-top="0px" padding-bottom="20px" border-width="2px" width="165px"/>
+            </mj-column>
+        </mj-section>
+
+        <!--Primera sección contenido de Joc & Rol-->
+        <mj-section background-url="./img/fondo-joc-and-rol.jpg">
+            <mj-column width="48%">
+                <mj-image padding="0px" src="./img/imagen-joc-and-rol1.jpg" />
+            </mj-column>
+            <mj-column width="52%">
+                <mj-text padding-top="15px" padding-bottom="40px" font-size="14px">El Tour de Joc & Rol es una aventura itinerante que lleva la emoción del Salón del Cómic de Valencia 2025 a los principales eventos dedicados al rol, los juegos de mesa y la fantasía.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!--Segunda sección contenido de Joc & Rol-->
+        <mj-section background-color="#fac045">
+            <mj-column width="62%">
+                <mj-text padding-top="15px" padding-bottom="40px" font-size="14px">El Tour de Joc & Rol es una aventura itinerante que lleva la emoción del Salón del Cómic de Valencia 2025 a los principales eventos dedicados al rol, los juegos de mesa y la fantasía.</mj-text>
+            </mj-column>
+            <mj-column width="38%">
+                <mj-image padding="0px" src="./img/imagen-joc-and-rol2.jpg" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section css-class="seccion-vacia-blanco" padding-top="12px">
+            <mj-column>
+            </mj-column>
+        </mj-section>
+
+        <!--Título promociones-->
+        <mj-section>
+            <mj-column>
+                <mj-divider padding="0px" width="100%"/>
+                <mj-text padding-top="22px" padding-bottom="28px" line-height="28px" font-family="Belanosima" font-size="32px" align="center" container-background-color="#fac045">¡Aprovecha estas promociones especiales!</mj-text>
+                <mj-divider padding="0px" width="100%"/>
+            </mj-column>
+        </mj-section>
+
+        <mj-section css-class="seccion-vacia-blanco">
+            <mj-column>
+            </mj-column>
+        </mj-section>
+
+        <!--Sección promociones colectivos y asociaciones-->
+        <mj-section background-color="#3e985d">
+            <mj-column padding-left="10px" padding-top="15px" width="60%">
+                <mj-text padding-left="2px" padding-right="0px" align="center" font-size="15px" container-background-color="#fac045">Entradas por colectivos y asociaciones</mj-text>
+                <mj-text padding-left="5px" padding-right="0px">Obtén descuentos en tus entradas por pertenecer a ciertos colectivos u asociaciones.</mj-text>
+            </mj-column>
+            <mj-column width="40%">
+                <mj-image padding-top="0px" padding-bottom="0px" padding-left="20px" padding-right="10px" align="left" width="300px" src="./img/imagen-promociones1.jpg"/>
+            </mj-column>
+        </mj-section>
+
+        <mj-section css-class="seccion-vacia-blanco">
+            <mj-column/>
+        </mj-section>
+
+        <!--Sección promociones colectivos y asociaciones-->
+        <mj-section background-color="#3e985d">
+            <mj-column width="40%">
+                <mj-image padding-top="0px" padding-bottom="0px" padding-left="20px" padding-right="10px" align="right" width="300px" src="./img/imagen-promociones2.jpg"/>
+            </mj-column>
+            <mj-column padding-right="10px" padding-top="15px" width="60%">
+                <mj-text padding-left="2px" padding-right="0px" align="center" font-size="15px" container-background-color="#fac045">Descuentos exclusivos con el Carnet Jove</mj-text>
+                <mj-text padding-left="5px" padding-right="0px">Se estarán descuentos especiales para los titulares del Carnet Jove para la aqusisicion de sus entradas.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section css-class="seccion-vacia-blanco">
+            <mj-column>
+            </mj-column>
+        </mj-section>
+
+        <!--Sección cierre promociones-->
+        <mj-section background-color="#ffffff">
+            <mj-column width="55%" padding-bottom="15px">
+                <mj-text padding-left="10px" padding-top="8px" container-background-color="#469369">Todas estas novedades y promociones te esperan este año en el Salón del Cómic 2025.</mj-text>
+                <mj-text padding-left="10px" padding-top="8px" font-weight="500" color="#3f1700" container-background-color="#f3c347"> ¡¡Accede ahora a nuestra web y disfruta de descuentos únicos por la aquisición de tu entrada de forma online!!</mj-text>
+                <mj-text padding-left="10px" padding-top="10px" container-background-color="#469369"></mj-text>
+            </mj-column>
+            <mj-column width="45%" padding-bottom="15px">
+                <mj-image padding-top="0px" src="./img/imagen-promociones3.jpg"/>
+            </mj-column>
+        </mj-section>
+
+        <!--Botón llamada a la acción-->
+        <mj-section>
+            <mj-column width="55%" background-color="#ffd071">
+                <mj-button padding-top="10px" padding-bottom="10px" vertical-align="bottom" href="https://cevisama.feriavalencia.com/exponer/#quieres-ser-expositor" background-color="#febb2f" color="#000000" font-size="15px" font-weight="500" width="255px" inner-padding="14px">COMPRA TU ENTRADA</mj-button>
+            </mj-column>
+            <mj-column padding="32px" width="45%" background-color="#ffdb8f">
+            </mj-column>
+        </mj-section>
+
+        <mj-section css-class="seccion-vacia-blanco">
+            <mj-column>
+            </mj-column>
+        </mj-section>
+
     <!--Footer-->
 
             <!--Texto Redes sociales-->
             <mj-section background-color="#2b291c">
                 <mj-column>
-                    <mj-text padding-left="10px" padding-bottom="2px" color="#ffffff" css-class="texto-footer">Encuentranos en nuestras redes:</mj-text>
+                    <mj-text padding-left="10px" padding-bottom="2px" color="#ffffff" css-class="texto-footer">Redes Feria Valencia:</mj-text>
                 </mj-column>
             </mj-section>
 
